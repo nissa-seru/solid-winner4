@@ -605,7 +605,7 @@ $option == eis_Player
 $player.metDaud score:0",,"""I'm told you were granted an audience with the High Hegemon, I'm glad he finally sees the importance that you have in our Sector, $player.firstName.""",,
 EISQuyThoughtsPlayerR5,DialogOptionSelected,"$id == eiskimquy
 $option == eis_Player
-$eis_xiv_legion score:0",,"""$player.firstName, I knew I saw great potential in you. You have found the lost Legion (XIV) that have greatly bolstered morale witin the Hegemony!""",,
+$eis_xiv_legion score:0",,"""$player.firstName, I knew I saw great potential in you. You have found the lost Legion (XIV) that have greatly bolstered morale within the Hegemony!""",,
 EISQuyThoughtsPlayerR6,DialogOptionSelected,"$id == eiskimquy
 $option == eis_Player
 $eis_xiv_castigator score:0
@@ -699,7 +699,7 @@ Nex_AddOptionConfirmation QuyAgentSaboteur ""Are you sure you want to recruit a 
 Nex_AddOptionConfirmation QuyAgentHybrid ""Are you sure you want to recruit a hybrid?"" ""Confirm"" ""Never mind""
 AddText ""You'll need to pay agents recruited here a salary of $eis_agent_salary credits per month.""
 SetTextHighlights $eis_agent_salary credits
-SetShortcut QuyDisagreeQuest ""ESCAPE""","""Certainly, you are at sufficient clearence to be able to request for an operative. What type of operatives are you looking for? Keep in mind you're still expected to pay them a salary. No one works for free in these trying times, but I can waive off the hiring bonus required for most operatives.""
+SetShortcut QuyDisagreeQuest ""ESCAPE""","""Certainly, have sufficient clearance to be able to request an operative. What type of operatives are you looking for? Keep in mind that you're still expected to pay them a salary. No one works for free in these trying times, but I can waive the hiring bonus required for most operatives.""
 
 ","0:QuyAgentNegotiator:Negotiator
 1:QuyAgentSaboteur:Saboteur
@@ -1863,7 +1863,7 @@ AvaIronHeritage1e,DialogOptionSelected,"$option == AvaIronHeritage
 EISVibeCheck 75 100","$AlreadyLearnedIronHeritage = true
 EISAddSkill eis_xiv true
 EISAddSound combat2
-FireAll PopulateOptions","Ava checks her Tri-Pad and smiles softly. ""I see you are eligible for the Iron Shell training program. Good. Let us get started then."" Ms. Nitia teaches you, as well as few other officers about fine details of XIV Battlegroup and Iron Shell vessels, how to use that technology and enginneering choices more effectively during combat. After the training is done, you feel more capable of controlling these ships yourself and commanding the crew onboard. Ava congratulates you personally after the training is finished.",,
+FireAll PopulateOptions","Ava checks her Tri-Pad and smiles softly. ""I see you are eligible for the Iron Shell training program. Good. Let us get started then."" Ms. Nitia teaches you, as well as few other officers about fine details of XIV Battlegroup and Iron Shell vessels, how to use that technology and engineering choices more effectively during combat. After the training is done, you feel more capable of controlling these ships yourself and commanding the crew onboard. Ava congratulates you personally after the training is finished.",,
 AvaIronHeritage1f,DialogOptionSelected,"$option == AvaIronHeritage
 EISVibeCheck 75 100
 EISAddSkill eis_xiv","$AlreadyLearnedIronHeritage = true
@@ -2538,7 +2538,7 @@ eis_celeste_sierra5b,DialogOptionSelected,$option == Sierra_EISInteraction3b,"Sh
 SetTextHighlightColors ""205,155,255,255"" ""205,155,255,255"" ""205,155,255,255"" ""205,155,255,255""
 SetTextHighlights ""\""Oh, hello, Caeda!\"""" ""\""I'm Sierra, a Domain-era experimental warship control mind built to pilot exotic phase vessels. I'm excited to meet you!\"""" ""\""Um, well, it's not really a facade, I'm not trying to sound human, I just do.\"""" ""\""No, I'm not really sure why, I think it's to have a more human perception of reali-\""""","Sierra's feed lights up, her voice sending ripples through her avatar. ""Oh, hello, Caeda!"" Sierra exclaims, her avatar buzzing. ""I'm Sierra, a Domain-era experimental warship control mind built to pilot exotic phase vessels. I'm excited to meet you!""
 
-Celeste replies gracefully with a little laughter, ""Why yes, I'm excited to meet you too."" As the conversation exchanges a few inquiries between each other until Celeste's eye widen with joy, suddenly realizing the situation, ""Experimental control mind you say? I have to say your facade in sounding like a human feels quite realistic.""
+Celeste replies gracefully with a little laughter, ""Why yes, I'm excited to meet you too."" As the conversation exchanges a few inquiries between each other until Celeste's eye widen with joy, suddenly realizing the situation, ""Experimental control mind you say? I have to say, your facade of sounding like a human feels quite realistic.""
 
 Sierra forces an uncomfortable laugh. ""Um, well, it's not really a facade, I'm not trying to sound human, I just do."" ... ""No, I'm not really sure why, I think it's to have a more human perception of reali-"" Her synthesised voice slows and fades out as her digital representation comes to a total stop.
 
